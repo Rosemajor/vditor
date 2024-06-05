@@ -15,7 +15,8 @@
         "src/assets/*"
     ],
     "dependencies": {
-        "diff-match-patch": "^1.0.5"
+        "diff-match-patch": "^1.0.5",
+        "diff-match-patch-typescript": "^1.1.0"
     },
     "types": "dist/index.d.ts",
     "devDependencies": {
@@ -30,7 +31,7 @@
         "@typescript-eslint/parser": "^8.9.0",
         "autoprefixer": "^10.4.2",
         "babel-loader": "^9.2.1",
-        "clean-webpack-plugin": "^4.0.0-alpha.0",
+        "clean-webpack-plugin": "^4.0.0",
         "copy-webpack-plugin": "^6.4.1",
         "css-loader": "^5.2.4",
         "eslint": "^9.12.0",
@@ -74,5 +75,6 @@
         "editor",
         "markdown",
         "b3log"
-    ]
+    ],
+    "packageManager": "pnpm@10.12.4+sha512.5ea8b0deed94ed68691c9bad4c955492705c5eeb8a87ef86bc62c74a26b037b08ff9570f108b2e4dbd1dd1a9186fea925e527f141c648e85af45631074680184"
 }

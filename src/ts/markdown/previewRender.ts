@@ -17,6 +17,7 @@ import {mermaidRender} from "./mermaidRender";
 import {markmapRender} from "./markmapRender";
 import {SMILESRender} from "./SMILESRender";
 import {mindmapRender} from "./mindmapRender";
+import {ecodeRender} from "./ecodeRender"
 import {plantumlRender} from "./plantumlRender";
 import {setLute} from "./setLute";
 import {speechRender} from "./speechRender";
@@ -138,6 +139,7 @@ export const previewRender = async (previewElement: HTMLDivElement, markdown: st
     graphvizRender(previewElement, mergedOptions.cdn);
     chartRender(previewElement, mergedOptions.cdn, mergedOptions.mode);
     mindmapRender(previewElement, mergedOptions.cdn, mergedOptions.mode);
+    ecodeRender(previewElement, mergedOptions.cdn, mergedOptions.mode);
     plantumlRender(previewElement, mergedOptions.cdn);
     abcRender(previewElement, mergedOptions.cdn);
     if (mergedOptions.render.media.enable) {

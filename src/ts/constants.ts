@@ -43,6 +43,7 @@ export abstract class Constants {
         "lightfair", "magula", "mono-blue", "nnfx-light", "panda-syntax-light", "paraiso-light", "purebasic", "qtcreator-light", "routeros", "school-book",
         "stackoverflow-light", "tokyo-night-light", "vs", "xcode", "default"];
     public static readonly ALIAS_CODE_LANGUAGES: string[] = [
+        "ecode",
         // 自定义
         "abc", "plantuml", "mermaid", "flowchart", "echarts", "mindmap", "graphviz", "math", "markmap", "smiles",
         // 别名
